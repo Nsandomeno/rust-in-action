@@ -4,7 +4,8 @@ fn main() {
     
   for reference in haystack.iter() { // <2>
     let item = *reference; // <3>
-    if item == needle {
+    if &item == &needle {
+    // if item == needle {
       println!("{}", item);
     }
 
