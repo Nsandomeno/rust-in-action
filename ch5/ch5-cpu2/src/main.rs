@@ -16,6 +16,7 @@ struct CPU {
     fn run(&mut self) {
       loop {                                        // <1>
         let opcode = self.read_opcode();
+        println!("OpCode in run method: {opcode}");
         self.position_in_memory += 2;               // <2>
 
         let c = ((opcode & 0xF000) >> 12) as u8;
@@ -57,11 +58,13 @@ struct CPU {
     cpu.registers[1] = 10;
     cpu.registers[2] = 10;               // <4>
     cpu.registers[3] = 10;               // <4>
+    println!("Registers: {:?}", cpu.registers);
 
     let mem = &mut cpu.memory;
     mem[0] = 0x80; mem[1] = 0x14;        // <5>
     mem[2] = 0x80; mem[3] = 0x24;        // <6>
     mem[4] = 0x80; mem[5] = 0x34;        // <7>
+    println!("Memory: {:?}", mem);
 
     cpu.run();
 
