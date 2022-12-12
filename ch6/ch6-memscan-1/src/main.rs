@@ -1,7 +1,7 @@
 fn main() {
     let mut n_nonzero = 0;
 
-    for i in 0..10000 {
+    for i in 1..10000 { /// 10 000 = 10k bytes
         let ptr = i as *const u8;                // <1>
         let byte_at_addr = unsafe { *ptr };      // <2>
 

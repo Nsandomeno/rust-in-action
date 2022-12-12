@@ -1,0 +1,10 @@
+/Users/nicholassandomeno/learn-rust/rust-in-action/ch6/ch6-particles/target/release/deps/memoffset-6ab644071c8698b0.rmeta: /Users/nicholassandomeno/.cargo/registry/src/github.com-1ecc6299db9ec823/memoffset-0.6.1/src/lib.rs /Users/nicholassandomeno/.cargo/registry/src/github.com-1ecc6299db9ec823/memoffset-0.6.1/src/raw_field.rs /Users/nicholassandomeno/.cargo/registry/src/github.com-1ecc6299db9ec823/memoffset-0.6.1/src/offset_of.rs /Users/nicholassandomeno/.cargo/registry/src/github.com-1ecc6299db9ec823/memoffset-0.6.1/src/span_of.rs
+
+/Users/nicholassandomeno/learn-rust/rust-in-action/ch6/ch6-particles/target/release/deps/libmemoffset-6ab644071c8698b0.rlib: /Users/nicholassandomeno/.cargo/registry/src/github.com-1ecc6299db9ec823/memoffset-0.6.1/src/lib.rs /Users/nicholassandomeno/.cargo/registry/src/github.com-1ecc6299db9ec823/memoffset-0.6.1/src/raw_field.rs /Users/nicholassandomeno/.cargo/registry/src/github.com-1ecc6299db9ec823/memoffset-0.6.1/src/offset_of.rs /Users/nicholassandomeno/.cargo/registry/src/github.com-1ecc6299db9ec823/memoffset-0.6.1/src/span_of.rs
+
+/Users/nicholassandomeno/learn-rust/rust-in-action/ch6/ch6-particles/target/release/deps/memoffset-6ab644071c8698b0.d: /Users/nicholassandomeno/.cargo/registry/src/github.com-1ecc6299db9ec823/memoffset-0.6.1/src/lib.rs /Users/nicholassandomeno/.cargo/registry/src/github.com-1ecc6299db9ec823/memoffset-0.6.1/src/raw_field.rs /Users/nicholassandomeno/.cargo/registry/src/github.com-1ecc6299db9ec823/memoffset-0.6.1/src/offset_of.rs /Users/nicholassandomeno/.cargo/registry/src/github.com-1ecc6299db9ec823/memoffset-0.6.1/src/span_of.rs
+
+/Users/nicholassandomeno/.cargo/registry/src/github.com-1ecc6299db9ec823/memoffset-0.6.1/src/lib.rs:
+/Users/nicholassandomeno/.cargo/registry/src/github.com-1ecc6299db9ec823/memoffset-0.6.1/src/raw_field.rs:
+/Users/nicholassandomeno/.cargo/registry/src/github.com-1ecc6299db9ec823/memoffset-0.6.1/src/offset_of.rs:
+/Users/nicholassandomeno/.cargo/registry/src/github.com-1ecc6299db9ec823/memoffset-0.6.1/src/span_of.rs:

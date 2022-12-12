@@ -1,0 +1,10 @@
+/Users/nicholassandomeno/learn-rust/rust-in-action/ch6/ch6-particles/target/debug/deps/draw_state-638f5902cb12ee1b.rmeta: /Users/nicholassandomeno/.cargo/registry/src/github.com-1ecc6299db9ec823/draw_state-0.8.0/src/lib.rs /Users/nicholassandomeno/.cargo/registry/src/github.com-1ecc6299db9ec823/draw_state-0.8.0/src/preset.rs /Users/nicholassandomeno/.cargo/registry/src/github.com-1ecc6299db9ec823/draw_state-0.8.0/src/state.rs /Users/nicholassandomeno/.cargo/registry/src/github.com-1ecc6299db9ec823/draw_state-0.8.0/src/target.rs
+
+/Users/nicholassandomeno/learn-rust/rust-in-action/ch6/ch6-particles/target/debug/deps/libdraw_state-638f5902cb12ee1b.rlib: /Users/nicholassandomeno/.cargo/registry/src/github.com-1ecc6299db9ec823/draw_state-0.8.0/src/lib.rs /Users/nicholassandomeno/.cargo/registry/src/github.com-1ecc6299db9ec823/draw_state-0.8.0/src/preset.rs /Users/nicholassandomeno/.cargo/registry/src/github.com-1ecc6299db9ec823/draw_state-0.8.0/src/state.rs /Users/nicholassandomeno/.cargo/registry/src/github.com-1ecc6299db9ec823/draw_state-0.8.0/src/target.rs
+
+/Users/nicholassandomeno/learn-rust/rust-in-action/ch6/ch6-particles/target/debug/deps/draw_state-638f5902cb12ee1b.d: /Users/nicholassandomeno/.cargo/registry/src/github.com-1ecc6299db9ec823/draw_state-0.8.0/src/lib.rs /Users/nicholassandomeno/.cargo/registry/src/github.com-1ecc6299db9ec823/draw_state-0.8.0/src/preset.rs /Users/nicholassandomeno/.cargo/registry/src/github.com-1ecc6299db9ec823/draw_state-0.8.0/src/state.rs /Users/nicholassandomeno/.cargo/registry/src/github.com-1ecc6299db9ec823/draw_state-0.8.0/src/target.rs
+
+/Users/nicholassandomeno/.cargo/registry/src/github.com-1ecc6299db9ec823/draw_state-0.8.0/src/lib.rs:
+/Users/nicholassandomeno/.cargo/registry/src/github.com-1ecc6299db9ec823/draw_state-0.8.0/src/preset.rs:
+/Users/nicholassandomeno/.cargo/registry/src/github.com-1ecc6299db9ec823/draw_state-0.8.0/src/state.rs:
+/Users/nicholassandomeno/.cargo/registry/src/github.com-1ecc6299db9ec823/draw_state-0.8.0/src/target.rs:

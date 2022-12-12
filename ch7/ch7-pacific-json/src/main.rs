@@ -6,7 +6,7 @@ fn main() {
     "Cook Islands": "Avarua",
     "Fiji": "Suva",
     "Kiribati": "South Tarawa",
-    "Niue": "Alofi",
+    "Niue": 1,
     "Tonga": "Nuku'alofa",
     "Tuvalu": "Funafuti"
   });

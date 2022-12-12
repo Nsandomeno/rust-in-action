@@ -12,6 +12,7 @@ use std::time::Instant;                          // <5>
 #[global_allocator]                              // <6>
 static ALLOCATOR: ReportingAllocator = ReportingAllocator;
 
+#[derive(Debug)]
 struct ReportingAllocator;                       // <7>
 
 unsafe impl GlobalAlloc for ReportingAllocator {
@@ -22,7 +23,10 @@ unsafe impl GlobalAlloc for ReportingAllocator {
     let time_taken = end - start;
     let bytes_requested = layout.size();
 
-    eprintln!("{}\t{}", bytes_requested, time_taken.as_nanos());
+    let nanos = time_taken.as_nanos();
+
+    //eprintln!("{}\t{}", bytes_requested, nanos); // don't know why this doesn't work
+    dbg!("{}\t{}", bytes_requested, nanos);
     ptr
   }
 

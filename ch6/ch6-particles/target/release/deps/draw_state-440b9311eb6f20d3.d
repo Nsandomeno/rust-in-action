@@ -1,0 +1,10 @@
+/Users/nicholassandomeno/learn-rust/rust-in-action/ch6/ch6-particles/target/release/deps/draw_state-440b9311eb6f20d3.rmeta: /Users/nicholassandomeno/.cargo/registry/src/github.com-1ecc6299db9ec823/draw_state-0.8.0/src/lib.rs /Users/nicholassandomeno/.cargo/registry/src/github.com-1ecc6299db9ec823/draw_state-0.8.0/src/preset.rs /Users/nicholassandomeno/.cargo/registry/src/github.com-1ecc6299db9ec823/draw_state-0.8.0/src/state.rs /Users/nicholassandomeno/.cargo/registry/src/github.com-1ecc6299db9ec823/draw_state-0.8.0/src/target.rs
+
+/Users/nicholassandomeno/learn-rust/rust-in-action/ch6/ch6-particles/target/release/deps/libdraw_state-440b9311eb6f20d3.rlib: /Users/nicholassandomeno/.cargo/registry/src/github.com-1ecc6299db9ec823/draw_state-0.8.0/src/lib.rs /Users/nicholassandomeno/.cargo/registry/src/github.com-1ecc6299db9ec823/draw_state-0.8.0/src/preset.rs /Users/nicholassandomeno/.cargo/registry/src/github.com-1ecc6299db9ec823/draw_state-0.8.0/src/state.rs /Users/nicholassandomeno/.cargo/registry/src/github.com-1ecc6299db9ec823/draw_state-0.8.0/src/target.rs
+
+/Users/nicholassandomeno/learn-rust/rust-in-action/ch6/ch6-particles/target/release/deps/draw_state-440b9311eb6f20d3.d: /Users/nicholassandomeno/.cargo/registry/src/github.com-1ecc6299db9ec823/draw_state-0.8.0/src/lib.rs /Users/nicholassandomeno/.cargo/registry/src/github.com-1ecc6299db9ec823/draw_state-0.8.0/src/preset.rs /Users/nicholassandomeno/.cargo/registry/src/github.com-1ecc6299db9ec823/draw_state-0.8.0/src/state.rs /Users/nicholassandomeno/.cargo/registry/src/github.com-1ecc6299db9ec823/draw_state-0.8.0/src/target.rs
+
+/Users/nicholassandomeno/.cargo/registry/src/github.com-1ecc6299db9ec823/draw_state-0.8.0/src/lib.rs:
+/Users/nicholassandomeno/.cargo/registry/src/github.com-1ecc6299db9ec823/draw_state-0.8.0/src/preset.rs:
+/Users/nicholassandomeno/.cargo/registry/src/github.com-1ecc6299db9ec823/draw_state-0.8.0/src/state.rs:
+/Users/nicholassandomeno/.cargo/registry/src/github.com-1ecc6299db9ec823/draw_state-0.8.0/src/target.rs:

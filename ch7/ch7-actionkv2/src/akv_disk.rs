@@ -57,7 +57,7 @@ fn main() {
         None => eprintln!("{:?} not found", key),
         Some(&i) => {
           let kv = a.get_at(i).unwrap();
-          println!("{:?}", kv.value)                <1>
+          println!("{:?}", kv.value)                //<1>
         }
       }
     }
@@ -67,13 +67,13 @@ fn main() {
     "insert" => {
       let value = maybe_value.expect(&USAGE).as_ref();
       a.insert(key, value).unwrap();
-      store_index_on_disk(&mut a, INDEX_KEY);       <2>
+      store_index_on_disk(&mut a, INDEX_KEY);       //<2>
     }
 
     "update" => {
       let value = maybe_value.expect(&USAGE).as_ref();
       a.update(key, value).unwrap();
-      store_index_on_disk(&mut a, INDEX_KEY);       <2>
+      store_index_on_disk(&mut a, INDEX_KEY);       //<2>
     }
     _ => eprintln!("{}", &USAGE),
   }

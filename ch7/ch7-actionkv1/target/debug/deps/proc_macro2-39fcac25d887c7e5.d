@@ -1,0 +1,10 @@
+/Users/nicholassandomeno/learn-rust/rust-in-action/ch7/ch7-actionkv1/target/debug/deps/proc_macro2-39fcac25d887c7e5.rmeta: /Users/nicholassandomeno/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro2-0.4.24/src/lib.rs /Users/nicholassandomeno/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro2-0.4.24/src/strnom.rs /Users/nicholassandomeno/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro2-0.4.24/src/stable.rs /Users/nicholassandomeno/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro2-0.4.24/src/unstable.rs
+
+/Users/nicholassandomeno/learn-rust/rust-in-action/ch7/ch7-actionkv1/target/debug/deps/libproc_macro2-39fcac25d887c7e5.rlib: /Users/nicholassandomeno/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro2-0.4.24/src/lib.rs /Users/nicholassandomeno/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro2-0.4.24/src/strnom.rs /Users/nicholassandomeno/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro2-0.4.24/src/stable.rs /Users/nicholassandomeno/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro2-0.4.24/src/unstable.rs
+
+/Users/nicholassandomeno/learn-rust/rust-in-action/ch7/ch7-actionkv1/target/debug/deps/proc_macro2-39fcac25d887c7e5.d: /Users/nicholassandomeno/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro2-0.4.24/src/lib.rs /Users/nicholassandomeno/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro2-0.4.24/src/strnom.rs /Users/nicholassandomeno/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro2-0.4.24/src/stable.rs /Users/nicholassandomeno/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro2-0.4.24/src/unstable.rs
+
+/Users/nicholassandomeno/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro2-0.4.24/src/lib.rs:
+/Users/nicholassandomeno/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro2-0.4.24/src/strnom.rs:
+/Users/nicholassandomeno/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro2-0.4.24/src/stable.rs:
+/Users/nicholassandomeno/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro2-0.4.24/src/unstable.rs:
