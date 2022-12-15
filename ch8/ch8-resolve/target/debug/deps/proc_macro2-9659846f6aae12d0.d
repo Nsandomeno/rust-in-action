@@ -1,0 +1,10 @@
+/Users/nicholassandomeno/learn-rust/rust-in-action/ch8/ch8-resolve/target/debug/deps/proc_macro2-9659846f6aae12d0.rmeta: /Users/nicholassandomeno/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro2-0.4.30/src/lib.rs /Users/nicholassandomeno/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro2-0.4.30/src/strnom.rs /Users/nicholassandomeno/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro2-0.4.30/src/fallback.rs /Users/nicholassandomeno/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro2-0.4.30/src/wrapper.rs
+
+/Users/nicholassandomeno/learn-rust/rust-in-action/ch8/ch8-resolve/target/debug/deps/libproc_macro2-9659846f6aae12d0.rlib: /Users/nicholassandomeno/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro2-0.4.30/src/lib.rs /Users/nicholassandomeno/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro2-0.4.30/src/strnom.rs /Users/nicholassandomeno/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro2-0.4.30/src/fallback.rs /Users/nicholassandomeno/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro2-0.4.30/src/wrapper.rs
+
+/Users/nicholassandomeno/learn-rust/rust-in-action/ch8/ch8-resolve/target/debug/deps/proc_macro2-9659846f6aae12d0.d: /Users/nicholassandomeno/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro2-0.4.30/src/lib.rs /Users/nicholassandomeno/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro2-0.4.30/src/strnom.rs /Users/nicholassandomeno/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro2-0.4.30/src/fallback.rs /Users/nicholassandomeno/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro2-0.4.30/src/wrapper.rs
+
+/Users/nicholassandomeno/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro2-0.4.30/src/lib.rs:
+/Users/nicholassandomeno/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro2-0.4.30/src/strnom.rs:
+/Users/nicholassandomeno/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro2-0.4.30/src/fallback.rs:
+/Users/nicholassandomeno/.cargo/registry/src/github.com-1ecc6299db9ec823/proc-macro2-0.4.30/src/wrapper.rs:

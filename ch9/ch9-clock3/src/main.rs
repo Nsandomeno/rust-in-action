@@ -15,15 +15,17 @@ use std::mem::zeroed;
 use std::net::UdpSocket;
 use std::time::Duration;
 
-const NTP_MESSAGE_LENGTH: usize = 48;               <1>
+const NTP_MESSAGE_LENGTH: usize = 48;               //<1>
 const NTP_TO_UNIX_SECONDS: i64 = 2_208_988_800;
-const LOCAL_ADDR: &'static str = "0.0.0.0:12300";   <2>
+const LOCAL_ADDR: &'static str = "0.0.0.0:12300";   //<2>
 
 #[derive(Default, Debug, Copy, Clone)]
 struct NTPTimestamp {
   seconds: u32,
   fraction: u32,
 }
+
+#[derive(Debug)]
 
 struct NTPMessage {
   data: [u8; NTP_MESSAGE_LENGTH],
@@ -82,21 +84,22 @@ impl NTPMessage {
   }
 
   fn client() -> Self {
-    const VERSION: u8 = 0b00_011_000;   <3>
-    const MODE: u8    = 0b00_000_011;   <3>
+    const VERSION: u8 = 0b00_011_000;   //<3>
+    const MODE: u8    = 0b00_000_011;   //<3>
 
     let mut msg = NTPMessage::new();
 
-    msg.data[0] |= VERSION;             <4>
-    msg.data[0] |= MODE;                <4>
-    msg                                 <5>
+    msg.data[0] |= VERSION;             //<4>
+    msg.data[0] |= MODE;                //<4>
+    msg                                 //<5>
   }
 
   fn parse_timestamp(
     &self,
     i: usize,
   ) -> Result<NTPTimestamp, std::io::Error> {
-    let mut reader = &self.data[i..i + 8];        <6>
+    let mut reader = &self.data[i..i + 8];        //<6>
+    dbg!("READER in parse timestamp {reader}");
     let seconds    = reader.read_u32::<BigEndian>()?;
     let fraction   = reader.read_u32::<BigEndian>()?;
 
@@ -108,13 +111,13 @@ impl NTPMessage {
 
   fn rx_time(
     &self
-  ) -> Result<NTPTimestamp, std::io::Error> {     <7>
+  ) -> Result<NTPTimestamp, std::io::Error> {     //<7>
     self.parse_timestamp(32)
   }
 
   fn tx_time(
     &self
-  ) -> Result<NTPTimestamp, std::io::Error> {     <8>
+  ) -> Result<NTPTimestamp, std::io::Error> {     //<8>
     self.parse_timestamp(40)
   }
 }

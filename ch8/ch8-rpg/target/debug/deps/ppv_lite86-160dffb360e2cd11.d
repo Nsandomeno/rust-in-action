@@ -1,0 +1,9 @@
+/Users/nicholassandomeno/learn-rust/rust-in-action/ch8/ch8-rpg/target/debug/deps/ppv_lite86-160dffb360e2cd11.rmeta: /Users/nicholassandomeno/.cargo/registry/src/github.com-1ecc6299db9ec823/ppv-lite86-0.2.5/src/lib.rs /Users/nicholassandomeno/.cargo/registry/src/github.com-1ecc6299db9ec823/ppv-lite86-0.2.5/src/soft.rs /Users/nicholassandomeno/.cargo/registry/src/github.com-1ecc6299db9ec823/ppv-lite86-0.2.5/src/types.rs /Users/nicholassandomeno/.cargo/registry/src/github.com-1ecc6299db9ec823/ppv-lite86-0.2.5/src/x86_64/mod.rs /Users/nicholassandomeno/.cargo/registry/src/github.com-1ecc6299db9ec823/ppv-lite86-0.2.5/src/x86_64/sse2.rs
+
+/Users/nicholassandomeno/learn-rust/rust-in-action/ch8/ch8-rpg/target/debug/deps/ppv_lite86-160dffb360e2cd11.d: /Users/nicholassandomeno/.cargo/registry/src/github.com-1ecc6299db9ec823/ppv-lite86-0.2.5/src/lib.rs /Users/nicholassandomeno/.cargo/registry/src/github.com-1ecc6299db9ec823/ppv-lite86-0.2.5/src/soft.rs /Users/nicholassandomeno/.cargo/registry/src/github.com-1ecc6299db9ec823/ppv-lite86-0.2.5/src/types.rs /Users/nicholassandomeno/.cargo/registry/src/github.com-1ecc6299db9ec823/ppv-lite86-0.2.5/src/x86_64/mod.rs /Users/nicholassandomeno/.cargo/registry/src/github.com-1ecc6299db9ec823/ppv-lite86-0.2.5/src/x86_64/sse2.rs
+
+/Users/nicholassandomeno/.cargo/registry/src/github.com-1ecc6299db9ec823/ppv-lite86-0.2.5/src/lib.rs:
+/Users/nicholassandomeno/.cargo/registry/src/github.com-1ecc6299db9ec823/ppv-lite86-0.2.5/src/soft.rs:
+/Users/nicholassandomeno/.cargo/registry/src/github.com-1ecc6299db9ec823/ppv-lite86-0.2.5/src/types.rs:
+/Users/nicholassandomeno/.cargo/registry/src/github.com-1ecc6299db9ec823/ppv-lite86-0.2.5/src/x86_64/mod.rs:
+/Users/nicholassandomeno/.cargo/registry/src/github.com-1ecc6299db9ec823/ppv-lite86-0.2.5/src/x86_64/sse2.rs:

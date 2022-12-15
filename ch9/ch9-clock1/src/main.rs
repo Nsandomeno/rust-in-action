@@ -45,12 +45,13 @@ fn main() {
 
   let action = args.value_of("action").unwrap();   // <1>
   let std = args.value_of("std").unwrap();         // <1>
-
+    println!("EXAMINE: {action} and {std}");
   if action == "set" {
     unimplemented!()                               // <2>
   }
 
   let now = Clock::get();
+  
   match std {
     "timestamp" => println!("{}", now.timestamp()),
     "rfc2822" => println!("{}", now.to_rfc2822()),
