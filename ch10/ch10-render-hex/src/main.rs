@@ -3,6 +3,7 @@ use std::env;
 use svg::node::element::path::{Command, Data, Position};
 use svg::node::element::{Path, Rectangle};
 use svg::Document;
+use rayon::prelude::*;
 
 use crate::Operation::{               // <1>
     Forward,                          // <1>
@@ -111,9 +112,10 @@ impl Artist {
 }
 
 fn parse(input: &str) -> Vec<Operation> {
-  let mut steps = Vec::<Operation>::new();
-  for byte in input.bytes() {
-    let step = match byte {
+  input
+    .as_bytes()
+    .par_iter()
+    .map(|byte| match byte {
       b'0' => Home,
       b'1'..=b'9' => {
         let distance = (byte - 0x30) as isize;   // <12>
@@ -121,11 +123,23 @@ fn parse(input: &str) -> Vec<Operation> {
       }
       b'a' | b'b' | b'c' => TurnLeft,
       b'd' | b'e' | b'f' => TurnRight,
-      _ => Noop(byte),                           // <13>
-    };
-    steps.push(step);
-  }
-  steps
+      _ => Noop(*byte),     
+  }).collect()
+  // let mut steps = Vec::<Operation>::new();
+  // for byte in input.bytes() {
+  //   let step = match byte {
+  //     b'0' => Home,
+  //     b'1'..=b'9' => {
+  //       let distance = (byte - 0x30) as isize;   // <12>
+  //       Forward(distance * (HEIGHT / 10))
+  //     }
+  //     b'a' | b'b' | b'c' => TurnLeft,
+  //     b'd' | b'e' | b'f' => TurnRight,
+  //     _ => Noop(byte),                           // <13>
+  //   };
+  //   steps.push(step);
+  // }
+  // steps
 }
 
 fn convert(operations: &Vec<Operation>) -> Vec<Command> {
@@ -193,7 +207,8 @@ fn generate_svg(path_data: Vec<Command>) -> Document {
 
 fn main() {
   let args = env::args().collect::<Vec<String>>();
-  let input = args.get(1).unwrap();
+  let default_input: String = String::from("default name");
+  let input = args.get(1).unwrap_or(&default_input);
   let default_filename = format!("{}.svg", input);
   let save_to = args.get(2).unwrap_or(&default_filename);
 

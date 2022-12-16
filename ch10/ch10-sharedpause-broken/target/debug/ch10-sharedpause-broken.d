@@ -1,0 +1,1 @@
+/Users/nicholassandomeno/learn-rust/rust-in-action/ch10/ch10-sharedpause-broken/target/debug/ch10-sharedpause-broken: /Users/nicholassandomeno/learn-rust/rust-in-action/ch10/ch10-sharedpause-broken/src/main.rs

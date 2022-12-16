@@ -16,7 +16,7 @@ fn main() {
       handlers.push(handle);
     }
 
-    for handle in &handlers {
+    for handle in handlers {
       handle.join();
     }
 
