@@ -1,6 +1,7 @@
 use std::env;
-
-use rayon::prelude::*;
+use std::thread;
+use hex::encode;
+use::crossbeam::channel::{unbounded};
 use svg::node::element::path::{Command, Data, Position};
 use svg::node::element::{Path, Rectangle};
 use svg::Document;
@@ -18,6 +19,8 @@ use crate::Orientation::{
     South,
     West
 };
+
+
 
 const WIDTH: isize = 400;
 const HEIGHT: isize = WIDTH;
@@ -230,15 +233,18 @@ fn generate_svg(path_data: Vec<Command>) -> Document {
     .add(border);
 
   document
-}
+}                                                                                                                       
 
 fn main() {
   let args = env::args().collect::<Vec<String>>();
-  let input = args.get(1).unwrap();
-  let default_filename = format!("{}.svg", input);
+  let default_input = encode(String::from("hello my name is nick"));
+  let input = args.get(1).unwrap_or(&default_input);
+
+  //let input = args.get(1).unwrap();
+  let default_filename = format!("{}.svg", &input);
   let save_to = args.get(2).unwrap_or(&default_filename);
 
-  let operations = parse(input);
+  let operations = parse(&input);
   let path_data = convert(&operations);
   let document = generate_svg(path_data);
   svg::save(save_to, &document).unwrap();
