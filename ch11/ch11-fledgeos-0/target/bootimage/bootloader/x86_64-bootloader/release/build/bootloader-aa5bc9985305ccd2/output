@@ -1,0 +1,7 @@
+cargo:rerun-if-changed=/Users/nicholassandomeno/learn-rust/rust-in-action/ch11/ch11-fledgeos-0/Cargo.toml
+cargo:rustc-link-search=native=/Users/nicholassandomeno/learn-rust/rust-in-action/ch11/ch11-fledgeos-0/target/bootimage/bootloader/x86_64-bootloader/release/build/bootloader-aa5bc9985305ccd2/out
+cargo:rustc-link-lib=static=kernel_bin-fledgeos
+cargo:rerun-if-env-changed=KERNEL
+cargo:rerun-if-env-changed=KERNEL_MANIFEST
+cargo:rerun-if-changed=/Users/nicholassandomeno/learn-rust/rust-in-action/ch11/ch11-fledgeos-0/target/fledge/debug/fledgeos
+cargo:rerun-if-changed=build.rs
